@@ -13,6 +13,7 @@ const arr = [
 
 import { useAuth } from "@/firebase/auth";
 import { useRouter } from "next/router";
+import Loader from "@/components/Loader";
 
 export default function Home() {
 
