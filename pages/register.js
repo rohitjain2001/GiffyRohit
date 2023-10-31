@@ -5,7 +5,7 @@ import {auth} from "../firebase/firebase";
 import {createUserWithEmailAndPassword, updateProfile, GoogleAuthProvider, signInWithPopup} from "firebase/auth";
 import { useAuth } from "@/firebase/auth";
 import { useRouter } from "next/router";
-import Loader from "@/components/loader";
+import Loader from "@/components/Loader";
 import Link from "next/link";
 
 const provider = new GoogleAuthProvider();
