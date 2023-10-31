@@ -30,13 +30,13 @@ const Gallery = ({ gifs }) => {
         <Carousel 
         className='crls'
         height={300}
+        width={500}
         interval={500}
         autoFocus 
         infiniteLoop 
         centerMode
         showArrows
         useKeyboardArrows
-        maxWidth
         stopOnHover
         >
         {gifs.map((gif) => (
