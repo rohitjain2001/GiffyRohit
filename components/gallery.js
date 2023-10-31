@@ -29,8 +29,8 @@ const Gallery = ({ gifs }) => {
       <div style={galleryStyles}>
         <Carousel 
         className='crls'
-        height={300}
-        width={300}
+        height={600}
+        width={500}
         interval={500}
         autoFocus 
         infiniteLoop 
