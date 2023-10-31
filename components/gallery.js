@@ -30,7 +30,7 @@ const Gallery = ({ gifs }) => {
         <Carousel 
         className='crls'
         height={300}
-        width={500}
+        width={300}
         interval={500}
         autoFocus 
         infiniteLoop 
