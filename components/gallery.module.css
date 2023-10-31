@@ -7,6 +7,7 @@
   .gif-card {
     border: 1px solid #e0e0e0;
     border-radius: 4px;
+    margin-left: 275px;
     padding: 8px;
     text-align: center;
   }
@@ -20,3 +21,8 @@
   .gif-card p {
     margin-top: 8px;
   }
+  .crls {
+    position: relative;
+    
+    overflow: hidden;
+}

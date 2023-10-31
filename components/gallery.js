@@ -1,10 +1,10 @@
 import React from 'react';
+import styles from "./gallery.module.css";
 import { Carousel } from 'react-responsive-carousel'; 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 const Gallery = ({ gifs }) => {
   const galleryStyles = {
     padding: '50px',
-    display: 'grid',
     gridTemplateColumns: 'repeat(auto-fill, minmax(250px, 1fr)',
     gap: '16px',
 
@@ -27,7 +27,18 @@ const Gallery = ({ gifs }) => {
   return (
     
       <div style={galleryStyles}>
-        <Carousel>
+        <Carousel 
+        className='crls'
+        height={300}
+        interval={500}
+        autoFocus 
+        infiniteLoop 
+        centerMode
+        showArrows
+        useKeyboardArrows
+        maxWidth
+        stopOnHover
+        >
         {gifs.map((gif) => (
         
           <div key={gif.id} style={gifCardStyles} className="gif-card">
